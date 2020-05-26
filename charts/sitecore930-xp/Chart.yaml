@@ -1,0 +1,26 @@
+apiVersion: v2
+name: sitecore930-xp
+description: A Sitecore 9.3.0 XP Helm chart for Kubernetes
+icon: https://mygetwwwsitecoreeu.blob.core.windows.net/feedicons/sc-packages.png?202004140646
+
+type: application
+#kubeVersion: ">= 1.16.7"
+
+# This is the chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+version: 1.0.0
+
+# This is the version number of the application being deployed. This version number should be
+# incremented each time you make changes to the application.
+appVersion: 9.3.0
+keywords:
+  - sitecore
+  - cms
+  - windows
+  - experience
+home: https://github.com/sitecoreops/sitecore-helm
+sources:
+  - https://github.com/sitecoreops/sitecore-helm/tree/master/charts/sitecore930-xp
+maintainers:
+  - name: Bart Plasmeijer
+    url: https://github.com/bplasmeijer/

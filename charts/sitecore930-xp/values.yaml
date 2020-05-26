@@ -1,0 +1,70 @@
+# Default values for sitecore930-xp.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+sql:
+  image: 
+    tag: 
+  volumeClaim:
+    storageClassName: managed-premium
+    storageSize: 5Gi
+    accessModes:
+      - ReadWriteOnce
+
+solr:
+  image:
+    tag: 
+  volumeClaim:
+    storageClassName: managed-premium
+    storageSize: 1Gi
+    accessModes:
+      - ReadWriteOnce
+cm:
+  image: 
+    tag: 
+  adminPassword: abc
+  unicornSharedSecret: abc
+
+cd:
+  image: 
+    tag: 
+
+ps:
+  image: 
+    tag: 
+
+xconnect:
+  image: 
+    tag: 
+
+indexworker:
+  image: 
+    tag: 
+
+automationengine:
+  image: 
+    tag: 
+
+redis:
+
+
+global:
+  licenseFileSecretName: license.xml
+  sqlSaPassword: 
+  telerikEncryptionKey: 
+
+tls:
+  crt:
+  key:
+
+identity:
+  secret:
+  certificate:
+  certificatepassword:
+
+sitecore:
+  license:
+
+teleriken:
+  cryptionkey:
+
